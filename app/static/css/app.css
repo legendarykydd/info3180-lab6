@@ -5,3 +5,25 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+img{
+    height:250px;
+    width:250px;
+}
+
+.news__item{
+    border-top-color: green;
+    height:500px;
+    width:400px;
+    margin: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
